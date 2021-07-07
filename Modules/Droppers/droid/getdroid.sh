@@ -6,12 +6,11 @@ LP='\033[1;35m'
 YLW='\033[1;33m'
 LBBLUE='\e[104m'
 
-cd tools/king-phisher
+cd tools/getdroid
 echo -e "${ORNG}"
-figlet -f mini "King Phisher"
+figlet -f mini "GetDroid"
 echo -e "${NC}"
-./KingPhisher &
-./KingPhisherServer
+sudo ./getdroid.sh
 
 cd ../..
 ./tigershark

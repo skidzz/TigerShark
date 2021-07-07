@@ -12,4 +12,3 @@ figlet -f mini "PhishX"
 echo -e "${NC}"
 python3 PhishX.py 
 cd ../..
-./tigershark
